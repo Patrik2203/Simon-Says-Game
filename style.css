@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #d95980;
+}
+.red-bg{
+    background-color: red;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
+
+.reset-btn {
+    background-color: #f53b57; /* Vibrant red for attention */
+    color: #ffffff; /* White text for contrast */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Comfortable padding */
+    font-size: 16px; /* Readable font size */
+    font-weight: bold; /* Emphasize text */
+    cursor: pointer; /* Pointer cursor for interaction */
+    transition: all 0.3s ease; /* Smooth transition effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .reset-btn:hover {
+    background-color: #ff6b81; /* Lighter shade on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  .btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .reset-btn:active {
+    background-color: #c72c45; /* Darker shade when clicked */
+    transform: scale(0.95); /* Pressed effect */
+  }
+  .btn:active {
+    background-color: #c72c45; /* Darker shade when clicked */
+    transform: scale(0.95); /* Pressed effect */
+  }
+  
